@@ -10,7 +10,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 @Endpoint
-@AnonymousAllowed("ADMIN")
+@AnonymousAllowed()
 public class SamplePersonEndpoint {
 
     private final SamplePersonService service;
